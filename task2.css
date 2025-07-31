@@ -1,0 +1,141 @@
+body{
+    margin: 40px;
+    align-items: center;
+}
+.whole-container{
+    border: 1px solid black;
+    padding: 20px;
+    width: 1250px;
+    background-color: aliceblue;
+}
+.container{
+    padding: 20px;
+    padding-bottom: 60px;
+    width: 1100px;
+    margin: 40px;
+}
+.heading p{
+    font-size: 18px;
+}
+.heading{
+    width: 400px;
+    position: absolute;
+    top: 80px;
+}
+.rate-a{
+    position: absolute;
+    right: 30%;
+    top: 18%;
+    padding: 6px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 0%;
+    background-color: antiquewhite;
+}
+.rate-p1{
+    align-items: center;
+    margin-left: 135px;
+    margin-top:-40px;
+}
+.rate-b{
+    position: absolute;
+    right: 25%;
+    top: 26%;
+    padding: 6px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 0%;
+     background-color: antiquewhite;
+}
+.rate-p2{
+    align-items: center;
+    margin-left: 135px;
+    margin-top:-40px;
+}
+.rate-c{
+    position: absolute;
+    right: 20%;
+    top: 34%;
+    padding: 6px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 0%;
+     background-color: antiquewhite; background-color: antiquewhite;
+}
+.rate-p3{
+    align-items: center;
+    margin-left: 135px;
+    margin-top:-40px;
+}
+.container2{
+    padding: 20px;
+    padding-bottom: 400px;
+    width: 1100px;
+    margin: 40px;
+    margin-top:-60px;
+   
+}
+.pic1{
+    width: 300px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(75, 28, 75);
+    border-radius: 8px;
+    position: absolute;
+    right: 1080px;
+    top: 380px;
+}
+.pro-id1{
+    position: absolute;
+    right:  160px;
+    top: 20px;
+    width:100px 
+}
+.pro-id1 p{
+    margin: 0;
+}
+.pic2{
+    width: 300px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(75, 28, 75);
+    border-radius: 8px;
+    position: absolute;
+    right: 680px;
+    top:400px
+}
+.pro-id2{
+    position: absolute;
+    right: 160px;
+    top: 20px;
+    width: 100px;
+}
+.pro-id2 p{
+    margin: 0;
+}
+.pic3{
+    width: 300px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(75, 28, 75);
+    border-radius: 8px;
+    position: absolute;
+    right: 280px;
+    top:420px
+}
+.pro-id3{
+    position: absolute;
+    right: 160px;
+    top:15px;
+    width: 100px;
+}
+.pro-id3 p{
+    margin: 0;
+}
+h1{
+    color: rgb(145, 30, 145);
+    font-size: 40px;
+}
