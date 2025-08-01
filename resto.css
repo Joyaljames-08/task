@@ -1,0 +1,69 @@
+
+
+body{
+    background-image: url(food.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.838);
+    width: 100vw;
+    height: 100vh;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin-left: 600px; 
+}
+.nav-link ul a{
+    text-decoration: none;
+    color:white;
+}
+.nav-link ul a:hover{
+    color:  rgb(10, 198, 245);
+}
+.logo{
+    color:rgb(10, 198, 245);
+    margin-left: 30px;
+    font-size: 30px;
+}
+.nav-butt{
+    padding: 10px 16px;
+    background-color: rgb(10, 198, 245);
+    margin: 20px;
+}
+.nav-butt:hover{
+    background-color: yellow;
+}
+.content{
+    color: white;
+    width: px;
+    position: absolute;
+    bottom: 200px;
+    margin-left: 20px;
+}
+.content h1{
+    font-size: 70px;
+}
+.cont-butt{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:  rgb(10, 198, 245);
+}
+.cont-butt:hover{
+    background-color: yellow; 
+}
+.img{
+    position: absolute;
+    right: 120px;
+    bottom: 120px;
+}
