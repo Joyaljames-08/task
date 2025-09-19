@@ -13,15 +13,27 @@
             " alt="" class="lg:w-30 md:w-20">
         </div>
         <ul class=" font-bold hidden md:flex gap-10 lg:text-2xl md:text-xl">
-            <li>Plants</li>
-            <li>For offices</li>
-            <li>Plant care</li>
-            <li>About</li>
+            <li><a href="">Plants</a></li>
+            <li><a href="">For offices</a></li>
+            <li><a href="">Plant care</a></li>
+            <li><a href="">About</a></li>
         </ul>
-        <div class="flex gap-3">
+        <div class="hidden md:flex gap-3">
             <img src="chat Icons .png" alt="" class="lg:w-8 sm:w-5" >
             <img src="acco.png" alt=""class="lg:w-8 sm:w-5" >
             <img src="cart.png" alt=""class="lg:w-8 sm:w-5" >
+        </div>
+        <div class="relative md:hidden">
+            <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" 
+             class="w-10">
+                 <img src="navicon.png" alt="Menu" class="w-full">
+            </button>
+            <div id="mobileMenu" class="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg hidden">
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Plant</a>
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">for offices</a>
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Plant care</a>
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">About</a>
+            </div>
         </div>
     </nav>
 

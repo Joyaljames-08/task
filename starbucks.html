@@ -13,10 +13,10 @@
     <nav class="flex flex-wrap items-center justify-between p-5">
       <img src="star logo.jpg" alt="Logo" class="w-16 md:w-20">
       
-      <ul class="hidden md:flex font-bold gap-10 lg:gap-20">
-        <li>MENU</li>
-        <li>REWARDS</li>
-        <li>GIFT CARD</li>
+      <ul class="hidden  md:flex font-bold gap-10 lg:gap-20 ">
+        <li><a href="">MENU</a></li>
+        <li><a href="">REWARDS</a></li>
+        <li><a href="">GIFT CARD</a></li>
       </ul>
 
       <div class="hidden md:flex items-center gap-3">
@@ -24,10 +24,26 @@
         <h2 class="text-sm md:text-base">Find a store</h2>
       </div>
 
-      <div class="flex gap-3 mt-3 md:mt-0">
-        <button class="border rounded-2xl px-4 py-1 text-sm md:text-base"><a href="#">Sign in</a></button>
-        <button class="border rounded-2xl text-white bg-black px-4 py-1 text-sm md:text-base"><a href="#">Join Now</a></button>
+      <div class="hidden md:flex gap-3 mt-3 ">
+        <button class="hover:bg-green-200 border rounded-2xl px-4 py-1 text-sm md:text-base"><a href="#">Sign in</a></button>
+        <button class="hover:bg-green-800 border rounded-2xl text-white bg-black px-4 py-1 text-sm md:text-base"><a href="#">Join Now</a></button>
       </div>
+
+      <div class="relative md:hidden">
+            <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" 
+             class="w-15 hover:bg-gray-200 ">
+                 <img src="navicon.png" alt="" class="w-full">
+            </button>
+            <div id="mobileMenu" class="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg hidden font-bold w-80">
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">MENU</a>
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">REWARDS</a>
+                <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">GIFT CARB</a>
+                <div class="mt-3 p-5">
+                  <button class="border rounded-2xl px-4 py-1 w-70 hover:bg-green-200"><a href="#">Sign in</a></button>
+                  <button class="border rounded-2xl text-white bg-black px-4 py-1 w-70 mt-3 hover:bg-green-800"><a href="#">Join Now</a></button>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <div class="p-3 pl-5 md:pl-20 font-bold bg-green-900 text-white">
@@ -153,9 +169,9 @@
     </div>
 
     
-    <div class="flex flex-col sm:flex-row gap-5 lg:w-1/2">
+    <div class="flex  flex-col sm:flex-row gap-5 lg:w-1/2">
       <img src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/2B.png" alt="" class="w-32 md:w-40">
-      <div>
+      <div class="">
         <h2 class="font-bold text-lg md:text-xl">Register your gift card</h2>
         <p class="mt-3 text-sm md:text-base">Then use it to pay through the app. You can even consolidate balances from multiple cards in one place.</p>
       </div>
@@ -165,7 +181,7 @@
 
 
   
-  <footer class="p-5 bg-gray-100 mt-10">
+  <footer class="p-5 bg-gray-100 ">
     <div class="flex flex-wrap gap-5 justify-center md:justify-start p-5">
       <a href="#"><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-black-17.png" alt="" class="w-10 md:w-14"></a>
       <a href="#"><img src="https://www.iconninja.com/files/424/88/63/facebook-black-icon.png" alt="" class="w-10 md:w-14"></a>
